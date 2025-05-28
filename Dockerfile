@@ -2,4 +2,4 @@ FROM pufferpanel/pufferpanel:latest
 
 EXPOSE 8080
 
-CMD ["pufferpanel", "daemon"]
+CMD ["/usr/bin/pufferd"]
